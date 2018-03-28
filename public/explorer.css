@@ -1,0 +1,45 @@
+body
+{
+    margin:0;
+}
+#logo
+{
+    position:absolute;
+    top:0px;
+    right:0px;
+    width:64px;
+    height:64px;
+}
+#files
+{
+    width:20vw;
+    height:80vh;
+    border:1px black solid;
+    overflow-y:scroll;
+    display:inline-block;
+    font-size:14px;
+    font-family:Courier New;
+}
+#explore
+{
+    width:75vw;
+    height:80vh;
+    overflow-y:scroll;
+    display:inline-block;
+    border:2px black dashed;
+}
+ul
+{
+    list-style-type: none;
+    margin:0px 0px 0px 10px;
+    padding:0px;
+}
+li
+{
+    cursor:pointer;
+    text-decoration:none;
+}
+li:hover
+{
+    background-color:yellow;
+}
